@@ -1,0 +1,17 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  width: 98%;
+  height: auto;
+  margin: 0 auto;
+}
