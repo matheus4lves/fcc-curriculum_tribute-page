@@ -1,0 +1,18 @@
+.large-hero {
+  margin: 0;
+
+  &__image {
+    display: block;
+    max-width: 1400px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  &__caption {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 0.5rem;
+    line-height: normal;
+  }
+}
