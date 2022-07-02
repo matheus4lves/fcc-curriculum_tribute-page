@@ -1,0 +1,14 @@
+.site-header {
+  background-color: $main-black;
+  color: $main-white;
+
+  &__title,
+  &__quotations {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  &__quotations {
+    padding-bottom: 16px;
+  }
+}
