@@ -11,6 +11,6 @@ html {
 body {
   font-family: Tahoma, Verdana, sans-serif;
   line-height: 2;
-  color: $main-white;
-  background-color: $main-black;
+  color: $main-black;
+  background-color: $main-white;
 }
