@@ -1,0 +1,11 @@
+@define-mixin atSmaller {
+  @media (max-width: 600px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin atSmall {
+  @media (min-width: 600px) {
+    @mixin-content;
+  }
+}

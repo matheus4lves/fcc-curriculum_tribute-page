@@ -1,0 +1,12 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+
+  @mixin atSmaller {
+    padding: 0 8px;
+  }
+
+  @mixin atSmall {
+    padding: 0 16px;
+  }
+}
