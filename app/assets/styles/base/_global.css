@@ -7,3 +7,10 @@ html {
 ::after {
   box-sizing: inherit;
 }
+
+body {
+  font-family: Tahoma, Verdana, sans-serif;
+  line-height: 2;
+  color: $main-white;
+  background-color: $main-black;
+}
