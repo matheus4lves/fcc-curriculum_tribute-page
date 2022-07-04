@@ -1,6 +1,7 @@
 .site-header {
   background-color: $main-black;
   color: $main-white;
+  line-height: normal;
 
   &__title,
   &__quotations {
@@ -8,7 +9,19 @@
     margin: 0 auto;
   }
 
+  &__title {
+    font-size: 24px;
+    padding: 16px;
+  }
+
   &__quotations {
-    padding-bottom: 16px;
+    padding: 0 16px 16px;
+  }
+
+  /* Mixins */
+  &__title {
+    @mixin atMedium {
+      font-size: xx-large;
+    }
   }
 }
