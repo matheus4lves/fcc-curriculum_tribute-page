@@ -14,3 +14,9 @@ body {
   color: $main-black;
   background-color: $main-white;
 }
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}

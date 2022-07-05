@@ -1,0 +1,8 @@
+.biography {
+  &__content {
+    hyphens: auto;
+    text-align: justify;
+    text-indent: 5em;
+    margin-block: 0;
+  }
+}
