@@ -1,0 +1,23 @@
+.primary-nav {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-block: 0;
+  margin-inline: 0;
+
+  &__link {
+    display: inline-block;
+    padding-block: 16px;
+    padding-inline: 24px;
+    color: $main-white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  &__link:hover {
+    color: $main-black;
+    background-color: $main-white;
+  }
+}
