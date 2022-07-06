@@ -1,0 +1,7 @@
+.site-footer {
+  display: flex;
+  justify-content: center;
+  background-color: $main-black;
+  color: $main-white;
+  margin-block-start: 19.2px;
+}
