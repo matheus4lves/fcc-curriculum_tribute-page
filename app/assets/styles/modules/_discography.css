@@ -17,8 +17,10 @@
 
   &__flex-item figcaption {
     font-size: 0.8rem;
+    line-height: normal;
     text-align: center;
     margin-inline: 0 auto;
+    padding-block-start: 5px;
     color: $main-black;
     max-width: 200px;
   }
