@@ -8,10 +8,26 @@
   }
 
   &__flex-item {
-    line-height: 0.8;
+    text-decoration: none;
+  }
+
+  &__flex-item figure {
+    margin: 0;
+  }
+
+  &__flex-item figcaption {
+    font-size: 0.8rem;
+    line-height: normal;
+    text-align: center;
+    margin-inline: 0 auto;
+    padding-block-start: 5px;
+    color: $main-black;
+    max-width: 200px;
   }
 
   &__image {
+    display: block;
+    margin: auto;
     max-width: 200px;
     height: 200px;
     object-fit: cover;
